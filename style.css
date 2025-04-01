@@ -2,36 +2,56 @@
 body {
   background-color: #D4A76A;
 }
-
 header {
   background-color: #FFDBAA;
   color: #553100;
-  text-align: center;
   font-size: 2em;
   font-weight: bold;
 }
 
 nav {
   background-color: #805215;
-  text-align: center;
+  text-align: right;
+  border-width: 10px;
 }
-
 nav a {
   color: white;
   padding: 10px 15px;
   font-weight: bold;
-  border-radius: 10px;
 }
 
 nav background {
   background-color: #553100;
+  }
+
+  .flight-options{
+    display:flex;
+    justify-content: center;
+    width: 2000px;
+    height: 150px;
+    }
+
+.flights {
+  background-color: white;
+  margin: 10px;
+  text-align: center;
 }
 
-.card {
+.group-trips {
   background-color: white;
-  margin: 15pt;
+  margin: 10px;
   text-align: center;
+}
 
+.discount-flights {
+  background-color: white;
+  margin: 10px;
+  text-align: center;
+}
+.about-us {
+    background-color: white;
+    margin: 10px;
+    text-align: center;
 }
 
 button {
